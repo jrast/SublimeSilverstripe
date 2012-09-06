@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+class ${1:[Name]} extends Page {
+	
+}
+
+class ${1:[Name]}_Controller extends Page_Controller {
+	
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Inserts Skeleton for a new Pagetype with Controller</description>
+</snippet>
