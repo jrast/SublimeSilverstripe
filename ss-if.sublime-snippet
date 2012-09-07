@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<% if \$${1:[Property]} %>
+	${2:[Content]}
+<% end_if %>
+]]></content>
+	<tabTrigger>ss-if</tabTrigger>
+	<scope>text.html</scope>
+	<description>Inserts a If-Conditional</description>
+</snippet>

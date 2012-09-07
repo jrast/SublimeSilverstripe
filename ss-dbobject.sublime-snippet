@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+class ${1:[ Object ]} extends DataObject {
+	public static \$singular_name = '${1}';
+	public static \$plural_name = '${1}s';
+
+	${2:// Your Code}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-dataobject</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Inserts skeleton for a DataObject</description>
+</snippet>
